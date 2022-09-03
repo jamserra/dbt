@@ -1,0 +1,29 @@
+{
+	"name": "relationship-kgxyqcpixe",
+	"properties": {
+		"Name": "relationship-kgxyqcpixe",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "Retail_yq1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Channel",
+		"ToTableName": "Transaction",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ChannelId",
+				"ToColumnName": "SalesChannelId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Channel.cdm.json/Channel\",\"toEntity\":\"Transaction.cdm.json/Transaction\",\"joinPairs\":[{\"fromAttribute\":\"ChannelId\",\"toAttribute\":\"SalesChannelId\"}]}}"
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "64ef4511-13a6-48f0-a866-f35f542788e3"
+	},
+	"type": "RELATIONSHIP"
+}

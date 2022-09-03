@@ -1,0 +1,29 @@
+{
+	"name": "relationship-vdyzneabag",
+	"properties": {
+		"Name": "relationship-vdyzneabag",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "ConsumerGoods_oxd"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Transaction",
+		"ToTableName": "Order",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "TransactionId",
+				"ToColumnName": "OrderId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Transaction.cdm.json/Transaction\",\"toEntity\":\"Order.cdm.json/Order\",\"joinPairs\":[{\"fromAttribute\":\"TransactionId\",\"toAttribute\":\"OrderId\"}]}}"
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "b0f89d73-6755-439b-b9e7-34ed398fa10f"
+	},
+	"type": "RELATIONSHIP"
+}

@@ -1,0 +1,29 @@
+{
+	"name": "relationship-ngnuaijbca",
+	"properties": {
+		"Name": "relationship-ngnuaijbca",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "Retail_yq1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Warehouse",
+		"ToTableName": "Order",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "WarehouseId",
+				"ToColumnName": "WarehouseId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Warehouse.cdm.json/Warehouse\",\"toEntity\":\"Order.cdm.json/Order\",\"joinPairs\":[{\"fromAttribute\":\"WarehouseId\",\"toAttribute\":\"WarehouseId\"}]}}"
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "16288ea8-7ddc-4fef-ab46-1fd171cbe7db"
+	},
+	"type": "RELATIONSHIP"
+}

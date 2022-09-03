@@ -1,0 +1,29 @@
+{
+	"name": "relationship-vlampovknc",
+	"properties": {
+		"Name": "relationship-vlampovknc",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "ConsumerGoods_oxd"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Channel",
+		"ToTableName": "Order",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ChannelId",
+				"ToColumnName": "SalesChannelId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Channel.cdm.json/Channel\",\"toEntity\":\"Order.cdm.json/Order\",\"joinPairs\":[{\"fromAttribute\":\"ChannelId\",\"toAttribute\":\"SalesChannelId\"}]}}"
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "0285fe24-9d9b-4898-9cf2-72e497723855"
+	},
+	"type": "RELATIONSHIP"
+}

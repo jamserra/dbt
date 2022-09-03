@@ -1,0 +1,29 @@
+{
+	"name": "relationship-waspuxkyiw",
+	"properties": {
+		"Name": "relationship-waspuxkyiw",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "Retail_yq1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Item",
+		"ToTableName": "RetailProduct",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ItemSku",
+				"ToColumnName": "ItemSku"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Item.cdm.json/Item\",\"toEntity\":\"RetailProduct.cdm.json/RetailProduct\",\"joinPairs\":[{\"fromAttribute\":\"ItemSku\",\"toAttribute\":\"ItemSku\"}]}}"
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "eba04cc1-25d2-4c5e-b52b-4c874831dbd7"
+	},
+	"type": "RELATIONSHIP"
+}

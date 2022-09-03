@@ -1,0 +1,29 @@
+{
+	"name": "relationship-peehjxpjai",
+	"properties": {
+		"Name": "relationship-peehjxpjai",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "ConsumerGoods_oxd"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Channel",
+		"ToTableName": "Transaction",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ChannelId",
+				"ToColumnName": "SalesChannelId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Channel.cdm.json/Channel\",\"toEntity\":\"Transaction.cdm.json/Transaction\",\"joinPairs\":[{\"fromAttribute\":\"ChannelId\",\"toAttribute\":\"SalesChannelId\"}]}}"
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "1f063720-406a-4071-a6b7-0c2413061437"
+	},
+	"type": "RELATIONSHIP"
+}

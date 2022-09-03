@@ -1,0 +1,29 @@
+{
+	"name": "relationship-svmrgbdkqp",
+	"properties": {
+		"Name": "relationship-svmrgbdkqp",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "Retail_yq1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Vendor",
+		"ToTableName": "Order",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "VendorId",
+				"ToColumnName": "VendorId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Vendor.cdm.json/Vendor\",\"toEntity\":\"Order.cdm.json/Order\",\"joinPairs\":[{\"fromAttribute\":\"VendorId\",\"toAttribute\":\"VendorId\"}]}}"
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "56bb8e90-ee71-45b0-a1e9-ceac0fd0bd43"
+	},
+	"type": "RELATIONSHIP"
+}

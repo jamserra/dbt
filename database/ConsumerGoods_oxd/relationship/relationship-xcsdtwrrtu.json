@@ -1,0 +1,29 @@
+{
+	"name": "relationship-xcsdtwrrtu",
+	"properties": {
+		"Name": "relationship-xcsdtwrrtu",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "ConsumerGoods_oxd"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Item",
+		"ToTableName": "ConsumerGoodsProduct",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ItemSku",
+				"ToColumnName": "ItemSku"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Item.cdm.json/Item\",\"toEntity\":\"ConsumerGoodsProduct.cdm.json/ConsumerGoodsProduct\",\"joinPairs\":[{\"fromAttribute\":\"ItemSku\",\"toAttribute\":\"ItemSku\"}]}}"
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "0f084567-3b28-4795-86bf-d80c934f62c6"
+	},
+	"type": "RELATIONSHIP"
+}

@@ -1,0 +1,28 @@
+{
+	"name": "Retail_yq1",
+	"properties": {
+		"Name": "Retail_yq1",
+		"EntityType": "DATABASE",
+		"Description": "",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"Retail\",\"Version\":\"0.1.0\"}}}",
+			"IsSyMSCDMDatabase": true,
+			"x-ms-usageinfo": "AzureSynapseDatabaseTemplate"
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://synapsefilesystem@synapsestorate.dfs.core.windows.net/Retail_yq1",
+			"Properties": {
+				"FormatType": "parquet",
+				"LinkedServiceName": "serrademo-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 2,
+		"ObjectId": "a7dc3d1d-e249-4d57-8c1b-56c0902eb529"
+	},
+	"type": "DATABASE"
+}

@@ -1,0 +1,28 @@
+{
+	"name": "ConsumerGoods_oxd",
+	"properties": {
+		"Name": "ConsumerGoods_oxd",
+		"EntityType": "DATABASE",
+		"Description": "",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"ConsumerGoods\",\"Version\":\"0.1.0\"}}}",
+			"IsSyMSCDMDatabase": true,
+			"x-ms-usageinfo": "AzureSynapseDatabaseTemplate"
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://synapsefilesystem@synapsestorate.dfs.core.windows.net/ConsumerGoods_oxd",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "serrademo-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "9e622279-d0dd-499a-9811-aa12da620fba"
+	},
+	"type": "DATABASE"
+}

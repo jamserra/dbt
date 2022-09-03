@@ -1,0 +1,29 @@
+{
+	"name": "relationship-xczopwysgr",
+	"properties": {
+		"Name": "relationship-xczopwysgr",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "Retail_yq1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "TransactionLineItem",
+		"ToTableName": "TransactionLineItem",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "TransactionLineItemId",
+				"ToColumnName": "ReturnOfTransactionLineItemId"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"TransactionLineItem.cdm.json/TransactionLineItem\",\"toEntity\":\"TransactionLineItem.cdm.json/TransactionLineItem\",\"joinPairs\":[{\"fromAttribute\":\"TransactionLineItemId\",\"toAttribute\":\"ReturnOfTransactionLineItemId\"}]}}"
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "19a22c1a-bc15-429a-ade7-f7a2740b0ca2"
+	},
+	"type": "RELATIONSHIP"
+}

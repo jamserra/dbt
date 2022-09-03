@@ -1,0 +1,27 @@
+{
+	"name": "Database 1",
+	"properties": {
+		"Name": "Database 1",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true,
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"Automotive\",\"Version\":\"0.1.0\"}}}",
+			"x-ms-usageinfo": "AzureSynapseDatabaseTemplate"
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://synapsefilesystem@synapsestorate.dfs.core.windows.net/Database 1",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "serrademo-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "6a51e71a-4aa1-4342-bea7-e5aa2ca95a27"
+	},
+	"type": "DATABASE"
+}

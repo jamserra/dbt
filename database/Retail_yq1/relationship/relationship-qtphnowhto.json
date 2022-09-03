@@ -1,0 +1,29 @@
+{
+	"name": "relationship-qtphnowhto",
+	"properties": {
+		"Name": "relationship-qtphnowhto",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "Retail_yq1"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "Item",
+		"ToTableName": "TransactionLineItem",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "ItemSku",
+				"ToColumnName": "ItemSku"
+			}
+		],
+		"RelationshipType": 0,
+		"Properties": {
+			"DerivedModelRelationshipInfo": "{\"baseRelationship\":{\"fromEntity\":\"Item.cdm.json/Item\",\"toEntity\":\"TransactionLineItem.cdm.json/TransactionLineItem\",\"joinPairs\":[{\"fromAttribute\":\"ItemSku\",\"toAttribute\":\"ItemSku\"}]}}"
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "cb9b309a-f2f4-438e-98c7-429d5ed40d7b"
+	},
+	"type": "RELATIONSHIP"
+}

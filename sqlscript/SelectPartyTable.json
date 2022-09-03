@@ -1,0 +1,17 @@
+{
+	"name": "SelectPartyTable",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [PartyId]\n,[PartyName]\n,[PartyTypeId]\n,[GlobalLocationNumber]\n FROM [Retail_yq1].[dbo].[Party]\n\n SELECT TOP (100) [CustomerId]\n,[CustomerEstablishedDate]\n,[CustomerTypeId]\n,[ResponsibilityCenterId]\n,[LedgerId]\n,[LedgerAccountNumber]\n,[CustomerNote]\n,[PartyId]\n,[GlobalLocationNumber]\n FROM [Retail_yq1].[dbo].[Customer]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "Retail_yq1",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
