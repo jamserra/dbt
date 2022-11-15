@@ -1,0 +1,24 @@
+{
+	"name": "ConsumerGoods_8gr",
+	"properties": {
+		"Name": "ConsumerGoods_8gr",
+		"EntityType": "DATABASE",
+		"Description": "",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"DerivedModelDBInfo": "{\"ModelDirectives\":{\"BaseModel\":{\"Name\":\"ConsumerGoods\",\"Version\":\"1.1.0\"}}}",
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://synapsefilesystem@synapsestorate.dfs.core.windows.net/ConsumerGoods_8gr",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "serrademo-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
